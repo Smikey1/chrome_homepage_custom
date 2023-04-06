@@ -423,7 +423,7 @@ input {
 .social-button:hover::after {
   width: calc(100% + 2px);
   height: calc(100% + 2px);
-  margin-left: calc(-50% - 1px);
+  margin-left: calc(-1% - 1px);
 }
 .social-button i,
 .social-button svg {
@@ -454,6 +454,11 @@ input {
   margin: 0 5px;
   font-size: 24px; /* adjust the font size to match the other icons */
 }
+
+.social-button--youtube::after {
+  background: red;
+}
+
 .social-button--mail {
   color: #0072c6;
 }
